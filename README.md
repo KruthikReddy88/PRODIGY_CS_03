@@ -4,7 +4,7 @@
 Build a tool that assesses the strength of a password based on criteria such as length, presence of uppercase and lowercase letters, numbers, and special characters. Provide feedback to users on the password's strength
 
 # Password Complexity Checker
-A Password Complexity Checker is a tool designed to evaluate the strength and security of passwords based on various criteria. The goal of such a tool is to help users create robust passwords that are difficult to guess or crack, thereby enhancing their overall security online. Here’s a detailed explanation of how a Password Complexity Checker works and the benefits it provides.
+A Password Complexity Checker is a tool designed to evaluate the strength and security of passwords based on various criteria. The goal of such a tool is to help users create robust passwords that are difficult to guess or crack, thereby enhancing their overall security online. Here’s a detailed explanation of how a Password Complexity Checker works and the benefits it provides. 
 
 # How It Works:
 Length Check: The password must be at least 8 characters long. Longer passwords are generally more secure, so additional points might be awarded for passwords that are 12 characters or longer.
