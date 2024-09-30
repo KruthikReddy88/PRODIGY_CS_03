@@ -1,29 +1,38 @@
-# PRODIGY_CS_03
+# Password Strength Assessment Tool
 
-# Task-03
-Build a tool that assesses the strength of a password based on criteria such as length, presence of uppercase and lowercase letters, numbers, and special characters. Provide feedback to users on the password's strength
+## Description
+This C program assesses the strength of a password based on various criteria such as length, presence of uppercase and lowercase letters, numbers, and special characters. It provides users with both a strength score and feedback on how to improve their password.
 
-# Password Complexity Checker
-A Password Complexity Checker is a tool designed to evaluate the strength and security of passwords based on various criteria. The goal of such a tool is to help users create robust passwords that are difficult to guess or crack, thereby enhancing their overall security online. Here’s a detailed explanation of how a Password Complexity Checker works and the benefits it provides. 
-
-# How It Works:
-Length Check: The password must be at least 8 characters long. Longer passwords are generally more secure, so additional points might be awarded for passwords that are 12 characters or longer.
-Uppercase Check: The password must contain at least one uppercase letter.
-Lowercase Check: The password must contain at least one lowercase letter.
-Digit Check: The password must contain at least one digit.
-Special Character Check: The password must contain at least one special character (e.g., !@#$%^&*()). 
-The combination and variety of these characters increase the password's complexity, making it harder for malicious actors to guess or brute-force the password.
-
-Output:
-Feedback: The tool provides specific feedback on what’s missing in the password and evaluates its overall strength as weak, moderate, or strong.
-
-How to Use:
-Copy the code into a Python file (e.g., password_strength_tool.py).
-Run the script.
+## Features
+Password Strength Assessment: Scores the password based on a 10-point scale, with higher scores representing stronger passwords.
+Detailed Feedback: Offers suggestions for improving weak or medium-strength passwords.
+Criteria Considered:
+Length of the password
+Presence of lowercase and uppercase letters
+Use of numbers
+Inclusion of special characters (e.g., @, $, !, %, *, ?, &, #)
+Usage
+Run the program.
 Enter your password when prompted.
-Read the feedback on the password's strength.
-This tool can be easily extended or integrated into other applications to enforce password policies and improve security.
+The program will display a strength score along with detailed feedback to help you improve your password security.
 
-# Repository Contents
-PRODIGY_CS_03.py : The main Python script containing the implementation of the Password Complexity Checker.
-README.md : This file, providing an overview of the task and the project.
+## Example
+plaintext
+Copy code
+Password Strength Assessment Tool
+Enter your password: P@ssw0rd!
+
+Password Strength: Strong (Score: 8/10)
+
+Feedback:
+- For extra security, consider using a password with 12 or more characters.
+- Your password is strong!
+
+## Installation and Compilation
+Make sure you have a C compiler installed (e.g., gcc).
+Copy code
+Compile the program:
+Run the program:
+
+## License
+This project is licensed under the MIT License.
